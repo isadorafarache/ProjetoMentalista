@@ -1,0 +1,55 @@
+/*Só pra mostrar que sei comentar em css, não tenho nada pra comentar kkk*/
+body {
+    font-family: "Comic Sans MS", monospace;
+    min-height: 600px;
+    background-image: url("https://a-static.besthdwallpaper.com/galaxia-escura-papel-de-parede-3200x2400-55224_29.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+@media (max-height: 500px) {
+    body {
+        min-height: 800px;
+    }
+}
+
+input {
+    margin: 4px;
+    padding: 6px;
+    border: 5px solid #000;
+}
+
+button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border: 5px solid #000;
+    background: #ffffff;
+}
+
+.tentativas {
+    color: #ff0000;
+}
+
+.resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+}
